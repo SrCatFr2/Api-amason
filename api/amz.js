@@ -138,7 +138,7 @@ export default async function handler(req, res) {
     status,
     message: `${message} | ${tempo}`,
     card:    cardString,
-    usuario: usuario || null,
+    usuario: `@TogaChkBot`,
     tempo,
   });
 }
